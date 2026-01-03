@@ -1,5 +1,0 @@
-plt.plot(x, y)
-plt.title("Student Growth")
-plt.xlabel("Time")
-plt.ylabel("Marks")
-plt.show()
