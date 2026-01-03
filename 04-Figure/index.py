@@ -11,4 +11,7 @@ plt.title('Company Growth')
 plt.xlabel('Years')
 plt.ylabel("Value")
 
+# Save Image
+plt.savefig("revenue_report.png")
+
 plt.show()
