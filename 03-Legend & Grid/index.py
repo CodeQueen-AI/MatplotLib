@@ -10,4 +10,5 @@ plt.xlabel("Months")
 plt.ylabel("Profit")
 
 plt.legend()
+plt.grid()
 plt.show()
