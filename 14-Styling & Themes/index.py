@@ -1,47 +1,31 @@
 import matplotlib.pyplot as plt
 
-# ---------------- STYLE / THEME ----------------
-plt.style.use("ggplot")   # try: dark_background, bmh, classic
+plt.style.use("dark_background")
 
-# ---------------- DATA ----------------
 x = [1, 2, 3, 4, 5]
 y = [10, 18, 14, 22, 30]
 
-# ---------------- FIGURE ----------------
-plt.figure(figsize=(8, 5))   # size control
+plt.figure(figsize=(9, 5))
+plt.plot(x, y, color="#00E5FF", linewidth=3, linestyle="-", marker="o", markersize=9, markerfacecolor="white", markeredgewidth=2, label="Sales Trend")
 
-# ---------------- PLOT ----------------
-plt.plot(
-    x, y,
-    color="purple",
-    linewidth=3,
-    linestyle="--",
-    marker="o",
-    markersize=8,
-    label="Sales Growth"
-)
+plt.title("Sales Growth Analysis", fontsize=16, fontweight="bold", pad=15)
+plt.xlabel("Days", fontsize=12)
+plt.ylabel("Sales Units", fontsize=12)
 
-# ---------------- LABELS & TITLE ----------------
-plt.title("Complete Styled Line Plot", fontsize=14)
-plt.xlabel("Days", fontsize=11)
-plt.ylabel("Sales", fontsize=11)
+plt.grid(True, linestyle="--", alpha=0.3)
 
-# ---------------- GRID ----------------
-plt.grid(True, linestyle=":", alpha=0.7)
+plt.legend(loc="upper left", frameon=True, fancybox=True, shadow=True)
 
-# ---------------- LEGEND ----------------
-plt.legend(loc="upper left")
-
-# ---------------- ANNOTATION ----------------
 plt.annotate(
-    "Highest Point",
+    "Peak Value",
     xy=(5, 30),
     xytext=(3.5, 26),
-    arrowprops=dict(arrowstyle="->", color="black")
+    fontsize=11,
+    arrowprops=dict(
+        arrowstyle="->",
+        color="white",
+        lw=1.5
+    )
 )
 
-# ---------------- SAVE FIGURE ----------------
-plt.savefig("styled_plot.png", dpi=300, bbox_inches="tight")
-
-# ---------------- SHOW ----------------
 plt.show()
