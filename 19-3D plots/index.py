@@ -1,11 +1,9 @@
-
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.random.randn(1000)
-y = np.random.randn(1000)
+theta = np.linspace(0, 2 * np.pi, 100)
+r = 1 + np.sin(theta)
 
-plt.hexbin(x, y, gridsize=30)
-plt.colorbar(label="Count")
-plt.title("Hexbin Plot")
+plt.polar(theta, r)
+plt.title("Polar Plot")
 plt.show()
