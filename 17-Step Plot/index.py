@@ -1,11 +1,9 @@
 import matplotlib.pyplot as plt
-
 x = [1, 2, 3, 4, 5]
 y = [10, 15, 12, 18, 20]
 
 plt.step(x, y)
 
-# Annotation: max value highlight
 max_index = y.index(max(y))
 plt.annotate(
     "Peak Sales",
