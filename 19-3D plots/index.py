@@ -1,11 +1,11 @@
+
 import matplotlib.pyplot as plt
+import numpy as np
 
-x = [1, 2, 3, 4, 5]
-y = [10, 15, 13, 18, 20]
-sizes = [100, 300, 200, 500, 400]
+x = np.random.randn(1000)
+y = np.random.randn(1000)
 
-plt.scatter(x, y, s=sizes, alpha=0.6)
-plt.title("Bubble Chart")
-plt.xlabel("X values")
-plt.ylabel("Y values")
+plt.hexbin(x, y, gridsize=30)
+plt.colorbar(label="Count")
+plt.title("Hexbin Plot")
 plt.show()
