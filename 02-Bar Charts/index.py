@@ -1,19 +1,19 @@
 import matplotlib.pyplot as plt
 
-# Vertical Bar
 categories = ['A' , 'B' , 'C' , 'D']
 values = [10, 15, 7, 12]
 
+# Vertical Bar
 plt.bar(categories, values)
+
+# Horizontal Bar
+plt.barh(categories, values)
 
 plt.title('Category values')
 plt.xlabel('Categories')
 plt.ylabel('Values')
 
 plt.show()
-
-# Horizontal Bar
-plt.bar(categories, values)
 
 # Grouped bar Chart
 categories = ["A", "B", "C", "D"]
