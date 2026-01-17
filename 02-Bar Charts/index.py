@@ -28,8 +28,3 @@ plt.xlabel("Categories")
 plt.ylabel("Values")
 plt.legend()
 plt.show()
-
-
-
-
-
