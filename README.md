@@ -1,10 +1,6 @@
 # 🖊️ Matplotlib 
 
-**Matplotlib** is a Python library used for **data visualization**
-
-It allows Python users to create **charts, graphs, and plots** easily
-
-It helps in **graphically representing numeric or statistical data**
+*Matplotlib* is a Python library used for *data visualization* It allows Python users to create *charts, graphs and plots* easily It helps in *graphically representing numeric or statistical data*
 
 ## 🎯 Why use Matplotlib?
 
