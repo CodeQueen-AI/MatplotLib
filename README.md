@@ -1,4 +1,4 @@
-# 🖊️ Matplotlib - Definition
+# 🖊️ Matplotlib 
 
 **Matplotlib** is a Python library used for **data visualization**
 
