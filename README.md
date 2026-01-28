@@ -36,15 +36,9 @@ It helps in **graphically representing numeric or statistical data**
 5. **Histogram** - Depicts the frequency distribution of data
 6. **Box Plot** - Visualizes data distribution, including median, quartiles, and outliers
 7. **Heatmap** - Represents data values as colors in a matrix
-8. **Area Plot** - Displays quantitative data with filled areas to emphasize magnitude
-9. **Stem Plot** - Illustrates discrete data points with vertical lines
-10. **Step Plot** - Connects data points with steps instead of straight lines
-11. **Subplots** - Arranges multiple plots within a single figure
-12. **Stacked Plot** - Displays multiple datasets stacked on top of each other
-13. **Bubble Chart** - A scatter plot with points sized according to a variable
-14. **Hexbin Plot** - Shows the density of points using hexagonal bins
-15. **Polar Plot** - Plots data in polar coordinates
-16. **Quiver Plot** - Depicts vectors as arrows indicating direction and magnitude
-17. **3D Plots** - Plots data in three-dimensional space
-18. **Styling & Themes** - Customizes plot colors, styles, and overall appearance
-19. **Working with Data** - Methods for preparing and plotting data effectively
+8. **Subplots** - Arranges multiple plots within a single figure
+9. **Stacked Plot** - Displays multiple datasets stacked on top of each other
+10. **Bubble Chart** - A scatter plot with points sized according to a variable
+11. **Hexbin Plot** - Shows the density of points using hexagonal bins
+12. **Styling & Themes** - Customizes plot colors, styles, and overall appearance
+13. **Working with Data** - Methods for preparing and plotting data effectively
