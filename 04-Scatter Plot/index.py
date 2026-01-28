@@ -12,4 +12,6 @@ plt.scatter(x, y2)
 plt.title("sin(x) and cos(x)")
 plt.xlabel("x values")
 plt.ylabel("y values")
+plt.savefig("scatter_plot.png")  
+
 plt.show()
